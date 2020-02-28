@@ -1,37 +1,24 @@
-# Charlie Chatlin
+# client
 
-Chat application that allows users to chat with each other in a chatroom. 
-
-## Getting Started
-
-All scripts should be executed from the root directory.
-
-### Prerequisites
-
-- Node 12.x
-
-### Installing
-
+## Project setup
 ```
-npm run i && npm run setup
+npm install
 ```
 
-### Validation
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-```
-npm run validate
-```
-
-### Deployment
-
-```
-npm run start
-```
-or
+### Compiles and minifies for production
 ```
 npm run build
 ```
 
----
+### Lints and fixes files
+```
+npm run lint
+```
 
-Developed for the Mediaan Masterclass 2020.
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
